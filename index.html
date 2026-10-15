@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="theme-color"
+    content="#fff7e6"
+  >
+
+  <meta
+    name="description"
+    content="ఆడుతూ తెలుగు గుణింతాలు, పదాలు నేర్చుకోండి!"
+  >
+
+  <title>అక్షరాల తోట | తెలుగు పదాల ఆట</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Decorative floating elements -->
+  <div
+    class="fl"
+    id="fl"
+    aria-hidden="true"
+  ></div>
+
+  <!-- JavaScript renders all screens inside this element -->
+  <main id="app" aria-live="polite">
+    <div class="center section">
+      <div class="mas" aria-hidden="true">🦜</div>
+      <h1>అక్షరాల తోట</h1>
+      <p>ఆడుతూ నేర్చుకుందాం!</p>
+      <p>ఆటను సిద్ధం చేస్తున్నాం...</p>
+    </div>
+  </main>
+
+  <!-- Load data first, then screen logic, then gameplay -->
+  <script src="js/words.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/game.js" defer></script>
+</body>
+</html>
